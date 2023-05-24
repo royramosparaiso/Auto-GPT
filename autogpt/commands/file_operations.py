@@ -201,7 +201,7 @@ def delete_file(filename: str) -> str:
 
 @command("search_files", "Search Files", '"directory": "<directory>"')
 def search_files(directory: str) -> list[str]:
-    """Search for files in a directory
+    """Return all files from a directory given
 
     Args:
         directory (str): The directory to search in
